@@ -3,4 +3,5 @@ class DateElement extends HTMLElement {
         this.innerHTML = new Date().getFullYear();
     }
 }
+
 customElements.define("x-fullyear", DateElement);
